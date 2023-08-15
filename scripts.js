@@ -15,7 +15,7 @@ const Storage = {
   },
   set(transactions) {
     localStorage.setItem(
-      "dev.finances:transaction",
+      "dev.finances:transactions",
       JSON.stringify(transactions)
     );
   },
